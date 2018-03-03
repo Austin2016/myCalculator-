@@ -1,0 +1,95 @@
+/* css for this calculator was based on CSS from this page that I modified to my preferences and to fit to my html: http://www.wdrfree.com/118/make-a-calculator-using-javascript-and-css3; */
+
+*{ 
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font: bold 15px Arial, sans-serif;
+
+
+}
+
+html { 
+
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 40%, #ccc);
+	background-size: cover;
+
+
+}
+
+#calculator { 
+	width: 325px;
+	height: auto;
+
+	margin: 100px auto; /* box is centered horizontally */
+	padding: 20px 20px 9px; 
+	background: #426bf4;
+	background: linear-gradient(#426bf4, #8bceec);
+	border-radius: 6px;
+	box-shadow: 0px 4px #009de4, 0px 10px 10px rgba(0, 0, 0, .8);
+
+}
+#display {
+margin-left: 5px;
+border-radius: 3px;
+margin-bottom: 3px;
+
+}
+.top span.erase { 
+	 float: left;
+}
+
+.keys{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+
+}
+
+button { 
+width: 50px;
+height:30px;
+border-radius: 6px;
+
+}
+button:hover {
+	background: #9c89f6;
+	box-shadow: 0px 4px #6b54d3;
+	color: white;
+}
+
+
+#clear { 
+width: 50px;
+height: 20px;
+
+}
+
+#delete { 
+width: 50px;
+height: 20px;
+
+}
+
+.o{ 
+
+color:red;
+
+}
+p{margin-top: 5px;}
+
+#announce{ 
+
+	margin: 100px auto; /* box is centered horizontally */
+	width: 325px;
+	height: auto;
+	font: bold 40px Arial, sans-serif;
+	padding-left: 40px;
+
+
+}
+
