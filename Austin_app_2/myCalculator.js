@@ -1,3 +1,5 @@
+//Calculator app
+
 //global variables needed for this applicaiton 
 //
 //
